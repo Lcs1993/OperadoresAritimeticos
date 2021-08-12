@@ -17,6 +17,10 @@ public class OperadoresAritimeticos {
 		int arredondaAritimetico=(int)Math.round(valorA);
 		System.out.println(arredondaAritimetico);
 		System.out.println(Math.round(5.4f));
+		double ale=Math.random();
+		System.out.println(ale);
+		int numeroAleatorio=(int)(5+ale*(100-5));
+		System.out.println(numeroAleatorio);
 	}
 
 }
